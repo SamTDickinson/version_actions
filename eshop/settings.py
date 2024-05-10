@@ -37,11 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
-    # Local
-    'accounts.apps.AccountsConfig',
-=======
->>>>>>> parent of 47eba6a (Merge pull request #3 from SamTDickinson/feat/user_model_update)
 ]
 
 MIDDLEWARE = [
