@@ -51,8 +51,8 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-    - name: Version Increment
-      uses: reecetech/version-increment@2024.4.4
+    - name: Get next version
+      uses: reecetech/version-increment@2024.4.3
       id: version
       with:
         scheme: semver
